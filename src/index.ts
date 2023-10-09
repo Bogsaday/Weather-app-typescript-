@@ -12,7 +12,7 @@ async function generateResponse(question: string) {
     method: 'POST',
     headers: {
       'content-type': 'application/json',
-      'X-RapidAPI-Key': 'b770f195e9msh2a64ed1c004be3bp198e36jsnd38945b2bec6',
+      'X-RapidAPI-Key': 'YOUR_API_KEY',
       'X-RapidAPI-Host': 'chatgpt-api7.p.rapidapi.com',
     },
     body: JSON.stringify({
